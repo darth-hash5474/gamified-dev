@@ -4,9 +4,9 @@ Tasks are ordered on purpose — same rule the app itself will enforce on its us
 ahead; each step assumes the ones before it are done and working, not just written.
 
 ## 1. Project skeleton
-- [ ] FastAPI app with a single `GET /health` endpoint returning `{"status": "ok"}`
-- [ ] `requirements.txt`, `.gitignore`, `tests/` folder
-- [ ] One passing test for `/health`
+- [X] FastAPI app with a single `GET /health` endpoint returning `{"status": "ok"}`
+- [X] `requirements.txt`, `.gitignore`, `tests/` folder
+- [X] One passing test for `/health`
 - **Done when:** `uvicorn app.main:app` runs locally and the health check test passes.
 
 ## 2. Data model & persistence
